@@ -85,6 +85,10 @@ p {
     }
 }
 
+.shelves {
+    padding: 50px 12px;
+}
+
 .conteudo{
     background-color: #fff;
     margin: 0 auto;
@@ -95,16 +99,23 @@ p {
     padding-bottom: 120px;
     background-position: 50% 95%;
     background-color: #DED301;
-    margin-left: 16px;
 }
+
 
 #cartao-direita{
     background-image: url(imagens/shelf21.png);
     padding-bottom: 120px;
     background-position: 50% 95%;
     background-color: #1E3264;
-    margin-left: 12px;
-    margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    #cartao-esquerda{
+        margin-right: 15px;
+    }
+
+    #cartao-direita{
+    }
 }
 
 .shelf{
@@ -113,9 +124,9 @@ p {
     padding: 40px 48px 80px;
     -webkit-box-align: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     width: 100%;
+    min-height: 440px;
+    margin-bottom: 10px;
 }
 
 .cartao-header{
