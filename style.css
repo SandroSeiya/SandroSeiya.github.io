@@ -318,6 +318,14 @@ p {
     padding-left: 80px;
 }
 
+
+/*faz celular desaparecer para nao reajustar tamanho de display*/
+@media screen and (max-width: 768px) {
+    .rotacionar {
+        display: none;
+    }
+}
+
 .albuns{
     padding: 10px 0 10px 0;
 }
@@ -329,10 +337,6 @@ footer{
     padding: 50px 0px 20px 0px;
     position: relative;
 }
-
-/*.item-rede-social{*/
-    /*float: right;*/
-/*}*/
 
 
 /*Imagem de capa*/
