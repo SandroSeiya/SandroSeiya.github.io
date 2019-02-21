@@ -1,208 +1,594 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>ADM Seguros</title>
+  <meta name="author" content="Sandro Seiya Okazachi" />
+  <meta name="keywords"  content="seguro,corretora,adm,seguros,dourados" />
+  <meta name="Resource-type" content="Document" />
 
-    <title>Música para todos - Spotify (Just learning some WebDev)</title>
-    <link rel="icon" href="imagens/favicon.png">
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-    <![endif]-->
+  <!--<link rel="stylesheet" type="text/css" href="dist/fullpage.css" />-->
+  <!--<link rel="stylesheet" type="text/css" href="examples.css" />-->
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <!--<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
+  <link href="lib/fa-new/css/fontawesome.css" rel="stylesheet">
+  <link href="lib/fa-new/css/brands.css" rel="stylesheet">
+  <link href="lib/fa-new/css/solid.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Nivo Slider Theme -->
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive Stylesheet File -->
+  <link href="css/responsive.css" rel="stylesheet">
+
 </head>
 
-<body id="body-home">
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-transparente">
-        <div class="container">
+<body data-spy="scroll" data-target="#navbar-example">
+
+<div id="preloader"></div>
+
+<header>
+  <!-- header-area start -->
+  <div id="sticker" class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+
+          <!-- Nav -->
+          <nav class="navbar navbar-default">
+            <!-- Div pra collapse inclui logo -->
             <div class="navbar-header">
-
-                <a href="index.html" class="navbar-brand">
-                    <span class="img-logo">Spotify</span>
-                </a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- Logo -->
+              <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                <h1><span>ADM</span></h1> <h1 class="hidden-xs hidden-sm">Seguros</h1>
+              </a>
             </div>
+            <!-- Nav Links -->
+            <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active">
+                  <a class="page-scroll" href="#home">Início</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="#about">Quem Somos</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="#services">Serviços</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="#partners">Parceiros</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="#team">Equipe</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="#contact">Contato</a>
+                </li>
 
-            <!--botao toggle-->
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#barra-navegacao">
-                <span class="sr-only">Alternar navegação</span>
-                <span class="fas fa-bars"></span>
-            </button>
-
-            <!--navbar-->
-            <div class="collapse navbar-collapse" id="barra-navegacao">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="premium.html">Premium</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Ajuda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Baixar</a></li>
-                    <li class="divisor">|</li>
-                    <li class="nav-item"><a class="nav-link" href="#">Inscrever</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Entrar</a></li>
-                </ul>
+                <!--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Drop Down<span class="caret"></span></a>-->
+                  <!--<ul class="dropdown-menu" role="menu">-->
+                    <!--<li><a href=# >Drop Down 1</a></li>-->
+                    <!--<li><a href=# >Drop Down 2</a></li>-->
+                  <!--</ul>-->
+                <!--</li>-->
+              </ul>
             </div>
-
-        </div> <!-- container-->
-    </nav><!--nav-->
-
-    <!--capa-->
-    <div class="capa">
-        <div class="texto-capa">
-            <h1>Música para todos</h1>
-            <a href="" class="btn btn-lg btn-custom btn-custom btn-roxo">Aproveite o Spotify Free</a>
-            <a href="" class="btn btn-lg btn-custom btn-branco">Obter o Spotify Premium</a>
+            <!-- navbar-collapse -->
+          </nav>
+          <!-- END: Navigation -->
         </div>
+      </div>
+    </div>
+  </div>
+  <!-- header-area end -->
+</header>
+<!-- header end -->
+
+<!-- Start Slider Area -->
+<div id="home" class="slider-area">
+  <div class="bend niceties preview-2">
+    <div id="ensign-nivoslider" class="slides">
+      <img src="img/slider/bg3.jpg" alt="" title="#slider-direction-1" />
+      <img src="img/slider/bg1.jpg" alt="" title="#slider-direction-2" />
+      <img src="img/slider/bg4.jpg" alt="" title="#slider-direction-3" />
     </div>
 
-    <!--Conteudo-->
-    <section id="servicos">
-        <div class="container">
-            <div class="row">
-
-                <!--albuns-->
-                <div class="col-md-6">
-                    
-                    <div class="row albuns">
-                        <div class="col-md-6">
-                            <img src="imagens/img1.jpg" alt="" class="img-fluid">
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <img src="imagens/img2.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div> <!--row-->
-
-                    <div class="row albuns">
-                        <div class="col-md-6">
-                            <img src="imagens/img3.jpg" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-md-6">
-                            <img src="imagens/img4.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div> <!--row-->
-                    
-                </div>
-
-                <!--serviços-->
-                <div class="col-md-6">
-                    <h2>O que o Spotify tem?</h2>
-
-                    <h3>Músicas</h3>
-                    <p>Damn yer captain, feed the cockroach. Weird, golden swabbies swiftly loot a sunny, rainy plunder.</p>
-
-                    <h3>Playlists</h3>
-                    <p>Damn yer captain, feed the cockroach. Weird, golden swabbies swiftly loot a sunny, rainy plunder.</p>
-
-                    <h3>Novos lançamentos</h3>
-                    <p>Damn yer captain, feed the cockroach. Weird, golden swabbies swiftly loot a sunny, rainy plunder.</p>
-
-                </div>
-
+    <!-- direction 1 -->
+    <div id="slider-direction-1" class="slider-direction slider-one">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="slider-content">
+              <!-- layer 1 -->
+              <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <h2 class="title1">A melhor corretora de seguros de Dourados </h2>
+              </div>
+              <!-- layer 2 -->
+              <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                <h1 class="title2">Muito mais segurança no seu barraco</h1>
+              </div>
+              <!-- layer 3 -->
+              <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                <a class="ready-btn right-btn page-scroll" href="#services">Conheça mais</a>
+                <a class="ready-btn page-scroll" href="#about">Serviços</a>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section id="recursos">
-        <div class="container">
-            <div class="row">
-
-                <!--recursos-->
-                <div class="col-xs-12 col-md-4">
-                    <h2>Fácil</h2>
-
-                    <h3>Buscar</h3>
-                    <p>Já sabe o que quer escutar? É só procurar e apertar o play.</p>
-
-                    <h3>Navegar</h3>
-                    <p>Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
-
-                    <h3>Descobrir</h3>
-                    <p>Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.</p>
-
-                </div>
-
-                <div class="col-xs-12 col-md-8">
-                    <div class="row rotacionar">
-
-                        <div class="col-xs-12 col-md-6">
-                            <img src="imagens/iphone1.png" alt="" class="img-fluid imgphone">
-                        </div>
-
-                        <div class="col-xs-12 col-md-6">
-                            <img src="imagens/iphone2.png" alt="" class="img-fluid imgphone">
-                        </div>
-                    </div> <!--row-->
-                </div>
-
+    <!-- direction 2 -->
+    <div id="slider-direction-2" class="slider-direction slider-two">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="slider-content text-center">
+              <!-- layer 1 -->
+              <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <h2 class="title1">A melhor corretora de seguros de Dourados</h2>
+              </div>
+              <!-- layer 2 -->
+              <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                <h1 class="title2">Muito mais segurança no seu barraco</h1>
+              </div>
+              <!-- layer 3 -->
+              <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                <a class="ready-btn right-btn page-scroll" href="#services">Conheça mais</a>
+                <a class="ready-btn page-scroll" href="#about">Serviços</a>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <!--Rodapé-->
-    <footer id="rodape">
-        <div class="container">
-            <nav class="row">
-
-                <div class="col-md-2">
-                    <span class="img-logo"></span>
-                </div>
-
-                <div class="col-md-2">
-                    <h4 class="nav-title">Company</h4>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Empregos</a></li>
-                        <li><a href="#">Imprensa</a></li>
-                        <li><a href="#">Novidades</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-2">
-                    <h4 class="nav-title">comunidades</h4>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Artistas</a></li>
-                        <li><a href="#">Desenvolvedores</a></li>
-                        <li><a href="#">Marcas</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-2">
-                    <h4 class="nav-title">links uteis</h4>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Ajuda</a></li>
-                        <li><a href="#">Presentes</a></li>
-                        <li><a href="#">Player da Web</a></li>
-                    </ul>
-                </div>
-                
-                <div class="col-md-4">
-                    <ul class="nav">
-                        <li class="item-rede-social"><a href=""><img src="imagens/facebook.png" alt=""></a></li>
-                        <li class="item-rede-social"><a href=""><img src="imagens/twitter.png" alt=""></a></li>
-                        <li class="item-rede-social"><a href=""><img src="imagens/instagram.png" alt=""></a></li>
-                    </ul>
-                </div>
-
-            </nav> <!--row-->
+    <!-- direction 3 -->
+    <div id="slider-direction-3" class="slider-direction slider-two">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="slider-content">
+              <!-- layer 1 -->
+              <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <h2 class="title1">A melhor corretora de seguros de Dourados</h2>
+              </div>
+              <!-- layer 2 -->
+              <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                <h1 class="title2">Muito mais segurança no seu barraco</h1>
+              </div>
+              <!-- layer 3 -->
+              <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                <a class="ready-btn right-btn page-scroll" href="#services">Conheça mais</a>
+                <a class="ready-btn page-scroll" href="#about">Serviços</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Slider Area -->
 
-    </footer>
+<!-- Start About area -->
+<div id="about" class="about-area area-padding">
+  <div class="container">
+    <header class ="section-header">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="section-headline text-center">
+          <h2>Quem somos</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center text-about">
+          <h5>Muito prazer, nós somos a <span>ADM</span> seguros e viemos aqui proporcionar um serviço profissional
+            seguros e viemos aqui proporcionar um serviço profissionalseguros e viemos aqui proporcionar um serviço
+            profissionalseguros e viemos aqui proporcionar um serviço profissional  </h5>
+        </div>
+      </div>
+    </header>
+  </div>
+</div>
+<!-- End About area -->
+
+<!-- Start Service area -->
+<div id="services" class="services-area area-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="section-headline services-head text-center">
+          <h2>Serviços</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="services-contents ">
+        <!-- Start Left services -->
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="about-move">
+            <div class="services-details">
+              <div class="single-services">
+                <a class="services-icon" href="#">
+                  <i class="fas fa-car-side text-red"></i>
+                </a>
+                <h4>Auto</h4>
+                <p>
+                  Esta é uma descrição apenas exemplificando a beleza do CSS configurado. Nenhuma dessa informação é relevante, volte sempre.
+                </p>
+              </div>
+            </div>
+            <!-- end about-details -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="about-move">
+            <div class="services-details">
+              <div class="single-services">
+                <a class="services-icon" href="#">
+                  <i class="fas fa-heartbeat text-red"></i>
+                </a>
+                <h4>Vida</h4>
+                <p>
+                  Esta é uma descrição apenas exemplificando a beleza do CSS configurado. Nenhuma dessa informação é relevante, volte sempre.
+                </p>
+              </div>
+            </div>
+            <!-- end about-details -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <!-- end col-md-4 -->
+          <div class=" about-move">
+            <div class="services-details">
+              <div class="single-services">
+                <a class="services-icon" href="#">
+                  <i class="fas fa-tractor text-red"></i>
+                </a>
+                <h4>Rural</h4>
+                <p>
+                  Esta é uma descrição apenas exemplificando a beleza do CSS configurado. Nenhuma dessa informação é relevante, volte sempre.
+                </p>
+              </div>
+            </div>
+            <!-- end about-details -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <!-- end col-md-4 -->
+          <div class=" about-move">
+            <div class="services-details">
+              <div class="single-services">
+                <a class="services-icon" href="#">
+                  <i class="fas fa-home text-red"></i>
+                </a>
+                <h4>Residencial</h4>
+                <p>
+                  Esta é uma descrição apenas exemplificando a beleza do CSS configurado. Nenhuma dessa informação é relevante, volte sempre.
+                </p>
+              </div>
+            </div>
+            <!-- end about-details -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <!-- end col-md-4 -->
+          <div class=" about-move">
+            <div class="services-details">
+              <div class="single-services">
+                <a class="services-icon" href="#">
+                  <i class="fas fa-building text-red"></i>
+                </a>
+                <h4>Empresarial</h4>
+                <p>
+                  Esta é uma descrição apenas exemplificando a beleza do CSS configurado. Nenhuma dessa informação é relevante, volte sempre.
+                </p>
+              </div>
+            </div>
+            <!-- end about-details -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <!-- end col-md-4 -->
+          <div class=" about-move">
+            <div class="services-details">
+              <div class="single-services">
+                <a class="services-icon" href="#">
+                  <i class="fas fa-hospital-alt text-red"></i>
+                </a>
+                <h4>Saúde</h4>
+                <p>
+                  Esta é uma descrição apenas exemplificando a beleza do CSS configurado. Nenhuma dessa informação é relevante, volte sempre.
+                </p>
+              </div>
+            </div>
+            <!-- end about-details -->
+          </div>
+        </div>
+        <!-- End Left services -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Service area -->
+
+<!--Start partners area-->
+<div class="our-skill-area area-padding">
+  <section id="partners" class="" data-stellar-background-ratio="1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline2 text-center wow fadeInDown" data-wow-delay="0.2s">
+              <h2 id="title-partner">Parceiros</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 partners">
+            <div class="row col-md-12 col-sm-12 col-xs-12 partners">
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.2s"><a href="#"><img src="img/parceiros/azul.png" alt="" /></a></div>
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.3s"><a href="#"><img src="img/parceiros/aliro.png" alt="" /></a></div>
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.5s"><a href="#"><img src="img/parceiros/bradesco.png" alt="" /></a></div>
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.6s"><a href="#"><img src="img/parceiros/hdi.png" alt="" /></a></div>
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.7s"><a href="#"><img src="img/parceiros/itau.png" alt="" /></a></div>
+            </div>
+            <div class="row col-md-12 col-sm-12 col-xs-12 partners">
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.25s"><a href="#"><img src="img/parceiros/liberty.png" alt="" /></a></div>
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.35s"><a href="#"><img src="img/parceiros/mapfre.png" alt="" /></a></div>
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.55s"><a href="#"><img src="img/parceiros/portoseguro.png" alt="" /></a></div>
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.65s"><a href="#"><img src="img/parceiros/sancor.png" alt="" /></a></div>
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.75s"><a href="#"><img src="img/parceiros/suhai.png" alt="" /></a></div>
+            </div>
+            <div class="row col-md-12 col-sm-12 col-xs-12 partners">
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.4s"><a href="#"><img src="img/parceiros/sulamerica.png" alt="" /></a></div>
+              <div class="wow fadeInDown card container-card" data-wow-delay="0.7s"><a href="#"><img src="img/parceiros/tokyomarine.png" alt="" /></a></div>
+            </div>
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- End partners area -->
 
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- Start contact Area -->
+<div id="contact" class="contact-area">
+  <div class="contact-inner area-padding">
+    <div class="contact-overly"></div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Contact us</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Start contact icon column -->
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="contact-icon text-center">
+            <div class="single-icon">
+              <i class="fa fa-mobile"></i>
+              <p>
+                Call: +1 5589 55488 55<br>
+                <span>Monday-Friday (9am-5pm)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Start contact icon column -->
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="contact-icon text-center">
+            <div class="single-icon">
+              <i class="fa fa-envelope-o"></i>
+              <p>
+                Email: info@example.com<br>
+                <span>Web: www.example.com</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Start contact icon column -->
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="contact-icon text-center">
+            <div class="single-icon">
+              <i class="fa fa-map-marker"></i>
+              <p>
+                Location: A108 Adam Street<br>
+                <span>NY 535022, USA</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
 
+        <!-- Start Google Map -->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <!-- Start Map -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1098.1219280890298!2d-54.812288421177996!3d-22.216270734238392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sadm+seguros+dourados!5e0!3m2!1sen!2sbr!4v1550503407221" width="100%" height="308px" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <!-- End Map -->
+        </div>
+        <!-- End Google Map -->
+
+        <!-- Start  contact -->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="form contact-form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+        <!-- End Left contact -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Contact Area -->
+
+<!-- Start Footer bottom Area -->
+<footer>
+  <div class="footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="footer-content">
+            <div class="footer-head">
+              <div class="footer-logo">
+                <h2><span>e</span>Business</h2>
+              </div>
+
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+              <div class="footer-icons">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end single footer -->
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="footer-content">
+            <div class="footer-head">
+              <h4>information</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+              </p>
+              <div class="footer-contacts">
+                <p><span>Tel:</span> +123 456 789</p>
+                <p><span>Email:</span> contact@example.com</p>
+                <p><span>Working Hours:</span> 9am-5pm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end single footer -->
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="footer-content">
+            <div class="footer-head">
+              <h4>Instagram</h4>
+              <div class="flicker-img">
+                <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
+                <a href="#"><img src="img/portfolio/2.jpg" alt=""></a>
+                <a href="#"><img src="img/portfolio/3.jpg" alt=""></a>
+                <a href="#"><img src="img/portfolio/4.jpg" alt=""></a>
+                <a href="#"><img src="img/portfolio/5.jpg" alt=""></a>
+                <a href="#"><img src="img/portfolio/6.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-area-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="copyright text-center">
+            <p>
+              &copy; <strong>ADM Seguros</strong>. Todos os direitos reservados.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- JavaScript Libraries -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/venobox/venobox.min.js"></script>
+<script src="lib/knob/jquery.knob.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/parallax/parallax.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+<script src="lib/appear/jquery.appear.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+<!-- Contact Form JavaScript File -->
+<script src="contactform/contactform.js"></script>
+
+<script src="js/main.js"></script>
 </body>
 
 </html>
