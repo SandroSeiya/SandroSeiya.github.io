@@ -335,11 +335,11 @@ preview-2
 ---------------------------------------- */
 
 .preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-prevNav {
-  left: 50px;
+  left: 25px;
 }
 
 .preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-nextNav {
-  right: 50px;
+  right: 25px;
 }
 
 .preview-2 .nivoSlider .nivo-directionNav a.nivo-prevNav {
@@ -353,7 +353,7 @@ preview-2
 .preview-2 .nivo-directionNav a.nivo-prevNav::before {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #ffffff;
-  content: "";
+  content: "🡸";
   cursor: pointer;
   font: 300 50px/50px FontAwesome;
   position: absolute;
@@ -370,9 +370,9 @@ preview-2
 }
 
 .preview-2 .nivo-directionNav a.nivo-nextNav:hover:before, .preview-2 .nivo-directionNav a.nivo-prevNav:hover:before {
-  border-color: #3EC1D5;
+  border-color: #ff5757;
   color: #fff;
-  background: #3EC1D5;
+  background: #ff5757;
 }
 
 .preview-2 .nivo-directionNav a.nivo-nextNav::before {
@@ -380,7 +380,7 @@ preview-2
   border: 1px solid #fff;
   border-radius: 50%;
   color: #ffffff;
-  content: "";
+  content: "🡺";
   cursor: pointer;
   font: 100 30px/50px FontAwesome;
   height: 50px;
