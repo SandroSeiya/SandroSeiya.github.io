@@ -41,7 +41,21 @@ Supports Thumbs: true
   font-weight: 700;
 }
 
+.layer-1-1 h1 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
 .layer-1-2 h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.layer-1-2 h2 {
   color: #fff;
   font-size: 50px;
   font-weight: 700;
